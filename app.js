@@ -15,3 +15,9 @@ var Color;
 })(Color || (Color = {}));
 var myColor = Color.Green;
 console.log(myColor);
+function returnMyName() {
+    return myName;
+}
+function multi(num1, num2) {
+    return num1 * num2;
+}
